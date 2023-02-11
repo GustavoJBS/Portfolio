@@ -1,5 +1,8 @@
 <script lang="ts">
     import { defineComponent } from 'vue'
+    import AboutMe from '@/assets/svg/aboutme.svg'
+    import Works from '@/assets/svg/works.svg'
+    import Education from '@/assets/svg/aboutme.svg'
 
     export default defineComponent({
         data() {
@@ -7,19 +10,19 @@
                 routes: [
                     {
                         name: 'aboutme',
-                        icon: '/src/assets/svg/aboutme.svg'
+                        icon: AboutMe
                     },
                     {
                         name: 'works',
-                        icon: '/src/assets/svg/works.svg'
+                        icon: Works
                     },
                     {
                         name: 'education',
-                        icon: '/src/assets/svg/education.svg'
+                        icon: Education
                     }
                 ]
             }
-        }
+        },
     })
 </script>
 
