@@ -1,20 +1,24 @@
 <script lang="ts">
     import { defineComponent } from 'vue'
+    import ProfileImage from '@/assets/img/profile-image.png'
+    import Linkedin from '@/assets/svg/linkedin-image.png'
+    import Telegram from '@/assets/svg/telegram.svg'
+    
     export default defineComponent({
         data() {
             return {
-                imgProfile: '/src/assets/img/profile-image.png',
+                imgProfile: ProfileImage,
                 description: `Over the last 4 years, I've worked with many clients and companies, from Startups to LLCs.<br> I am
                 looking for New International Opportunities 🗺️`,
                 socialMedias: [
                     {
                         name: 'Linkedin',
-                        icon: '/src/assets/svg/linkedin.svg',
+                        icon: Linkedin,
                         url: 'https://www.linkedin.com/in/gustavosilva-03/'
                     },
                     {
                         name: 'Telegram',
-                        icon: '/src/assets/svg/telegram.svg',
+                        icon: Telegram,
                         url: 'https://t.me/Gustavo_JS'
                     }
                 ],

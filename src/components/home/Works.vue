@@ -1,5 +1,8 @@
 <script lang="ts">
     import { defineComponent } from 'vue'
+    import Devsquad from '@/assets/img/companies/devsquad.png' 
+    import Risoluto from '@/assets/img/companies/risoluto.png' 
+    import SimbioseSocial from '@/assets/img/companies/simbioseSocial.png' 
 
     export default defineComponent({
         data() {
@@ -9,7 +12,7 @@
                         title: 'Software Engineer',
                         company: 'DevSquad', 
                         dateRange: 'March 2022 - Current',
-                        logo: '/src/assets/img/companies/devsquad.png',
+                        logo: Devsquad,
                         skills: [
                             {
                                 name: 'Laravel',
@@ -21,7 +24,7 @@
                         title: 'FrontEnd Developer',
                         company: 'Risoluto / 4Effect ', 
                         dateRange: 'November 2021 - April 2022',
-                        logo: '/src/assets/img/companies/risoluto.png',
+                        logo: Risoluto,
                         skills: [
                             {
                                 name: 'Angular',
@@ -33,7 +36,7 @@
                         title: 'FullStack Developer',
                         company: 'Simbiose Social', 
                         dateRange: 'February 2021 - March 2022',
-                        logo: '/src/assets/img/companies/simbioseSocial.png',
+                        logo: SimbioseSocial,
                         skills: [
                             {
                                 name: 'Laravel',

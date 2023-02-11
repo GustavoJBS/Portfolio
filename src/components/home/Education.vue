@@ -1,5 +1,8 @@
 <script lang="ts">
     import { defineComponent } from 'vue'
+    import Uninter from '@/assets/img/schools/uninter.png'
+    import Clovis from '@/assets/img/schools/clovis.png'
+    import Etec from '@/assets/img/schools/etec.png'
 
     export default defineComponent({
         data() {
@@ -9,19 +12,19 @@
                         course: 'Systems Analysis and Development',
                         school: 'Uninter', 
                         dateRange: 'March 2021 - May 2023',
-                        logo: '/src/assets/img/schools/uninter.png'
+                        logo: Uninter
                     },
                     {
                         course: 'Computer Technician',
                         school: 'Clóvis Bevilacqua College ', 
                         dateRange: 'November 2021 - April 2022',
-                        logo: '/src/assets/img/schools/clovis.png'
+                        logo: Clovis
                     },
                     {
                         course: 'Industrial Automation Technician',
                         school: 'Etec São Paulo', 
                         dateRange: 'February 2021 - March 2022',
-                        logo: '/src/assets/img/schools/etec.png'
+                        logo: Etec
                     },
                 ]
             }
