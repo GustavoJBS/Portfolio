@@ -2,7 +2,7 @@
     import { defineComponent } from 'vue'
     import AboutMe from '@/assets/svg/aboutme.svg'
     import Works from '@/assets/svg/works.svg'
-    import Education from '@/assets/svg/aboutme.svg'
+    import Education from '@/assets/svg/education.svg'
 
     export default defineComponent({
         data() {
