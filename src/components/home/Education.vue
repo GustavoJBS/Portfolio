@@ -11,19 +11,19 @@
                     {
                         course: 'Systems Analysis and Development',
                         school: 'Uninter', 
-                        dateRange: 'March 2021 - May 2023',
+                        dateRange: '2021 - 2023',
                         logo: Uninter
                     },
                     {
                         course: 'Computer Technician',
                         school: 'Clóvis Bevilacqua College ', 
-                        dateRange: 'November 2021 - April 2022',
+                        dateRange: '2018 - 2020',
                         logo: Clovis
                     },
                     {
                         course: 'Industrial Automation Technician',
                         school: 'Etec São Paulo', 
-                        dateRange: 'February 2021 - March 2022',
+                        dateRange: '2019 - 2020',
                         logo: Etec
                     },
                 ]
