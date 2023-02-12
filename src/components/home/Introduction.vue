@@ -1,9 +1,9 @@
 <script lang="ts">
     import { defineComponent } from 'vue'
     import ProfileImage from '@/assets/img/profile-image.png'
-    import Linkedin from '@/assets/svg/linkedin-image.png'
+    import Linkedin from '@/assets/svg/linkedin.svg'
     import Telegram from '@/assets/svg/telegram.svg'
-    
+
     export default defineComponent({
         data() {
             return {
@@ -14,12 +14,12 @@
                     {
                         name: 'Linkedin',
                         icon: Linkedin,
-                        url: 'https://www.linkedin.com/in/gustavosilva-03/'
+                        url: 'https://www.linkedin.com/in/gustavosilva-03/',
                     },
                     {
                         name: 'Telegram',
                         icon: Telegram,
-                        url: 'https://t.me/Gustavo_JS'
+                        url: 'https://t.me/Gustavo_JS',
                     }
                 ],
                 mailTo: `mailto:gjbs1903@gmail.com`,
@@ -36,6 +36,21 @@
                 alt="Profile Image"
                 class="rounded-full h-44 md:h-56 aspect-square"
             />
+
+            <div class="flex gap-3">
+                <a 
+                    class="rounded-full bg-sky-400 p-3 cursor-pointer hover:opacity-70 duration-300"
+                    v-for="socialMedia in socialMedias"
+                    :href="socialMedia.url"
+                    target="_blank"
+                >
+                    <img 
+                        class="h-6 w-6"
+                        :src="socialMedia.icon" 
+                        :alt="socialMedia.name"
+                    />
+                </a>
+            </div>
 
             <div class="text-2xl lg:text-5xl font-bold">
                 <h1 class="text-transparent bg-clip-text bg-gradient-to-l from-fuchsia-500 via-red-600 to-orange-400">
