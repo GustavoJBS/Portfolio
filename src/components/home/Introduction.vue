@@ -9,7 +9,7 @@
             return {
                 imgProfile: ProfileImage,
                 description: `Over the last 4 years, I've worked with many clients and companies, from Startups to LLCs.<br> I am
-                looking for New International Opportunities 🗺️`,
+                looking for New Opportunities 🗺️`,
                 socialMedias: [
                     {
                         name: 'Linkedin',
